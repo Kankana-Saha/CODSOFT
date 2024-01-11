@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            background-color:black;
+        }
+        nav{
+            height: 5%;
+            width: 100%;
+           
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+        nav::before{
+           content: '';
+          
+           position: absolute;
+           height: 23%;
+           width: 100%;
+           z-index: -1;
+           opacity: 8;
+        }
+        .logo{
+            color: aliceblue;
+            font-size: 9mm;
+            padding-left: 0;
+            text-decoration: none;
+            margin-top: 1PX;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            text-decoration: none;
+            
+            gap: 6mm;
+            
+            
+        }
+        nav ul li {
+           display: flex;
+           padding: 3px 22px;
+           list-style: none;
+           justify-content: space-around;
+          
+
+       }
+       nav ul li a{
+          list-style: none;
+          font-size: 8mm;
+          text-decoration: none;
+          display: flex;
+          color:white;
+
+          
+       }
+       
+       .hello{
+        font-size: 20mm;
+        margin-top: 150px;
+        margin-left: 500px;
+        color: white;
+       }
+       .h31{
+        font-size: 16mm;
+        margin-top: 2px;
+        margin-left: 600px;
+        color: white;
+       }
+       .pp{
+        font-size: 8mm;
+        margin-top: 2px;
+        margin-left: 650px;
+        color: rgb(252, 252, 252);
+        width:500px;
+       
+       }
+       p{
+        font-size: 6mm;
+        margin-top: 2px;
+        margin-left: 620px;
+        color: rgb(252, 252, 252);
+        width:500px;
+       }
+       
+       .btn1{
+        font-size: 6mm;
+        margin-left: 30px;
+         }
+       .btn1 a{
+        text-decoration: none;
+        color:black;
+        }
+       
+       /* contact */
+       .h1{
+        margin-left: 550px;
+        margin-top: 50px;
+       }
+       .H3{
+        margin-left: 250px;
+        width: 1000px;
+        font-size: 6mm;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .p{
+        color: aquamarine;
+        font-size: 7mm;
+       }
+       .me{
+        display:flex;
+      
+
+       }
+       .woman{
+        margin-left: 100px;
+       }
+       .email{
+        margin-left: 200px;
+       }
+       .linkedin{
+        margin-left: 200px;
+       }
+       .phone{
+        margin-left: 150px;
+       }
+       .woman img{
+        height: 100px;
+        width: 100px;
+        margin-top: 60px;
+       }
+       .email img{
+        height: 100px;
+        width: 100px;
+        margin-top: 60px;
+       }
+       .linkedin img{
+        height: 100px;
+        width: 100px;
+        margin-top: 60px;
+       }
+       
+       .phone img{
+        height: 100px;
+        width: 100px;
+        margin-top: 60px;
+       }
+       
+       .o{
+        text-decoration: none;
+       }
+       /* skill */
+       .s{
+        margin-left: 590px;
+       }
+       .k{
+        margin-left: 200px;
+        color: aquamarine;
+        font-size: 9mm;
+       }
+       .i{
+        margin-left: 300px;
+       }
+       .l{
+        margin-left: 250px;
+        color: aquamarine;
+        font-size: 9mm;
+       }
+       .c{
+        margin-left: 350px;
+       }
+       .skill{
+        display: flex;
+       }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo" >
+           
+                <h2>KANKANA SAHA</h2>
+            </div>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                
+            </ul>
+
+        
+    </nav>
+    <header >
+        
+            <div class="left">
+                <h1 class="hello">HELLO,</h1>
+                <H3 class="h31">I am <span style="color: rgb(19, 145, 35);">Kankana</span></H3>
+                <P class="pp">Student of B.TECH. 2nd year ,learning Web development,passion for designing and creating something innovative. </P>
+                
+            </div>
+           
+            </div>
+        
+    </header>
+    <h1 style="color: aliceblue;margin-top: 150px;
+    margin-left: 600px; font-size: 16mm;">About Me</h1>
+    <section class="about">
+        <img src="me.jpg" alt="" height="400px" width="300px" style="margin-left: 550px;">
+     <H3 class="H3">I am a diligent B.TECH. student learning <span class="p">Full Stack  development</span>.My passion and dedication drives me to learn ,adopt and staying forward to web development also learning programming languages like <span class="p"> C & Python.</span> </H3>
+     
+    </section>
+   
+    <h1 class="s" style="color: aliceblue;margin-top: 150px;
+    margin-left: 600px; font-size: 16mm;">My Skills</h1>
+    <section class="skill">
+      <div>  
+        <H2 class="k">Frontend Web development</H2>
+    <ul class="i">
+    <li style="font-size: 6mm; color: aliceblue;">HTML</li>
+    <li style="font-size: 6mm; color: aliceblue;">CSS</li>
+    <li style="font-size: 6mm; color: aliceblue;">Javascript</li>  </ul>  
+      </div>
+      <div>
+        <h2 class="l">Programming Language</h2>
+        <ul class="c" ><li style="color: aliceblue; font-size: 6mm;">Python</li>
+        <li style="color: aliceblue; font-size: 6mm;">C</li>
+        <li style="color: aliceblue; font-size: 6mm;">MATLAB</li></ul>
+      </div>
+      
+    </section style="margin-bottom:100px">
+    <h1 style="margin-left: 570px; color: aliceblue;margin-top: 150px;
+     font-size: 16mm;">My Projects</h1>
+    <section>
+        <h2>Measurement Converter</h2>
+        <p style="font-size: 8mm; width: 70%; margin-left: 200px;">This a MATLAB based application the objective behind the application is to help people in the calculation of the  Height and Weight measurements in various units.
+        </p>
+        <div style="display: flex;">
+        <img src="project.jpg" height="300px" width="600px" style="margin-left: 100px;" alt="" >
+        <p style="margin-left: 200px;"><img src="Screenshot (75).png"   height="300px" width="600px" alt="" >After putting a value in Height when we presses any buttons among unit(height) the value will transfer into that unit and display in the result section.   </p></div>
+        <p style="margin-bottom: 100px; margin-left: 500px;"><img src="Screenshot (76).png"   height="300px" width="600px" >After putting a value in Weight when we presses any buttons among unit(weight) the value will transfer into that unit and display in the output section.  </p>
+    </section>
+    <h1 style="margin-left: 570px; color: aliceblue;margin-top: 150px;
+    font-size: 16mm; margin-bottom: 100px;"> My Resume</h1>
+    <section style="display: flex;">
+        <p style="margin-left: 500px;  font-size: 8mm;">This is my Resume-<button  class="btn1"><a href="cv.pdf">Download Resume</a></button></p>
+        
+    </section>
+    <section class="Contact" style="margin-top:100px;">
+        <h1 class="h1" style="color: aliceblue;margin-top: 150px;
+        margin-left: 600px; font-size: 16mm;">Contact Me</h1>
+  </section>
+    <article class="me">
+        <p class="woman"><img src="woman.jpg" alt="">KANKANA SAHA</p>
+        <p class="email"><img src="email.webp" alt="">kankanasaha04.ks@gmail.com</p>
+        <p class="linkedin"><img src="linkedin.webp" alt=""><a href="https://www.linkedin.com/in/kankana-saha-072947287" style="text-decoration: none;">https://www.linkedin.com/in/kankana-saha072947287</a></p>
+        <p class="phone"><img src="mobile-icon.png" alt="">7363951244</p>
+    </article>
+    <div style="color: rgb(246, 248, 249); margin-top: 100px;">
+        <p>copyright &copy;2022;designed by Kankana Saha</p>
+       </div>
+</body>
+</html>
